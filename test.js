@@ -1,2 +1,3 @@
-localStorage.setItem("key", "vslue");
-console.log(localStorage.getItem("key"));
+function load() {
+  localStorage.getItem("key");
+}
